@@ -1,0 +1,18 @@
+{
+  "name": "waridi_naturals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm i && concurrently \"npm run run-app\" \"npm run run-server\"",
+    "run-app": "cd client && npm start",
+    "run-server": "cd server && npm run dev"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

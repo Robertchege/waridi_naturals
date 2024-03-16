@@ -1,6 +1,6 @@
 # Dependency directories
-/node_modules
-/.pnp
+node_modules
+.pnp
 .pnp.js
 
 # Environment configuration files
@@ -11,8 +11,8 @@
 .env.production.local
 
 # Build outputs
-/dist
-/build
+dist
+build
 
 # Logs
 logs
@@ -22,7 +22,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Testing
-/coverage
+coverage
 
 # Editor directories and files
 .idea
